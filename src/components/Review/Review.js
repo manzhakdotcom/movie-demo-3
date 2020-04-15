@@ -4,7 +4,7 @@ import './Review.scss';
 const Review = props => {
   const [expandedReview, setExpandedReview] = useState(false);
 
-  const toggleReview = () => () => {
+  const toggleReview = () => {
     setExpandedReview(!expandedReview);
   };
 
